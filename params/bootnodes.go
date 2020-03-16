@@ -29,9 +29,9 @@ var MainnetBootnodes = []string{
 // Ropsten test network.
 var TestnetBootnodes = []string{
 	// Chancoin Bootnodes Testnet
-	"enode://0bc411381dfe91955d10b8e3d6d210d3a5b056b1504de1a891e503bae6075364dd53130517dcf39071f6f404b7a3b2523c130309a25abd24ebc0cf65d2bfda61@testboot.chancoin.org:30303",
-	"enode://b041725145911485b129682f45e451c9eb13a5e7195dd2bcdfd9040437425fa33d2a54500881ae3443a4092316ae574a0bdc859fc6a33455aaa973cba4cd616a@testboot.chancoin.moe:30303",
-	"enode://cfa068d689f7e8d6fd9b71466c9b5ade3b61fb43e49b3d5aa9f7a9a52a0a6ad4ee36e0b2ba4522e6e753d43686befb40be0922ea36d781cdddec020152d9d3f5@testboot.signal2noi.se:30303",
+	"enode://0bc411381dfe91955d10b8e3d6d210d3a5b056b1504de1a891e503bae6075364dd53130517dcf39071f6f404b7a3b2523c130309a25abd24ebc0cf65d2bfda61@45.55.43.71:30303",
+	"enode://b041725145911485b129682f45e451c9eb13a5e7195dd2bcdfd9040437425fa33d2a54500881ae3443a4092316ae574a0bdc859fc6a33455aaa973cba4cd616a@192.187.122.218:30303",
+	// "enode://cfa068d689f7e8d6fd9b71466c9b5ade3b61fb43e49b3d5aa9f7a9a52a0a6ad4ee36e0b2ba4522e6e753d43686befb40be0922ea36d781cdddec020152d9d3f5@testboot.signal2noi.se:30303",
 }
 
 // RinkebyBootnodes are the enode URLs of the P2P bootstrap nodes running on the
