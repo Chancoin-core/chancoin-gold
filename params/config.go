@@ -102,15 +102,15 @@ var (
 	//
 	// This configuration is intentionally not using keyed fields to force anyone
 	// adding flags to the config to also have to set these fields.
-	AllEthashProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, new(EthashConfig), nil, nil}
+	AllEthashProtocolChanges = &ChainConfig{big.NewInt(133701), big.NewInt(1), nil, false, big.NewInt(2), common.Hash{}, big.NewInt(3), big.NewInt(3), big.NewInt(4), nil, new(EthashConfig), nil, nil}
 
 	// AllPosvProtocolChanges contains every protocol change (EIPs) introduced
 	// and accepted by the Ethereum core developers into the Posv consensus.
 	//
 	// This configuration is intentionally not using keyed fields to force anyone
 	// adding flags to the config to also have to set these fields.
-	AllPosvProtocolChanges   = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, nil, nil, &PosvConfig{Period: 0, Epoch: 30000}}
-	AllCliqueProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, nil, &CliqueConfig{Period: 0, Epoch: 30000}, nil}
+	AllPosvProtocolChanges   = &ChainConfig{big.NewInt(133701), big.NewInt(1), nil, false, big.NewInt(2), common.Hash{}, big.NewInt(3), big.NewInt(3), big.NewInt(4), nil, nil, nil, &PosvConfig{Period: 15, Epoch: 900}}
+	AllCliqueProtocolChanges = &ChainConfig{big.NewInt(133701), big.NewInt(1), nil, false, big.NewInt(2), common.Hash{}, big.NewInt(3), big.NewInt(3), big.NewInt(4), nil, nil, &CliqueConfig{Period: 15, Epoch: 900}, nil}
 	TestChainConfig          = &ChainConfig{big.NewInt(1), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, new(EthashConfig), nil, nil}
 	TestRules                = TestChainConfig.Rules(new(big.Int))
 )
