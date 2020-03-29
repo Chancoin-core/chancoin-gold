@@ -20,9 +20,9 @@ package params
 // the main Ethereum network.
 var MainnetBootnodes = []string{
 	// Chancoin Bootnodes Mainnet
-	"enode://cea67e9b8f9393c3df8a7843a2552872dd33a045c87b4c8ad2a0d98a4a64e817b9d23f12230fa24e14e0f856ad0052063dbb17d4faaedb45577070303e582ea8@boot.chancoin.org:30301",
-	"enode://9de543a66de8503c682ab1f7f242854069c58fc4f9e0769020ad1ea317d0394f6876e3d5d1c4d1c19f8410cbb6fffb5cc8e6ba45bf42d0dc83c75cff18dd72fe@boot.chancoin.moe:30301",
-	"enode://a1964d52bb7e7de39081ec6cd88a3628f12a50530cc6671d1c3cf68eeeb584f407a252dc04433e8f1d532238376fedb6d6d8ccea927c678532f206f50fc8a027@boot.signal2noi.se:30301",
+	"enode://b041725145911485b129682f45e451c9eb13a5e7195dd2bcdfd9040437425fa33d2a54500881ae3443a4092316ae574a0bdc859fc6a33455aaa973cba4cd616a@45.77.144.141:30301",
+	//"enode://9de543a66de8503c682ab1f7f242854069c58fc4f9e0769020ad1ea317d0394f6876e3d5d1c4d1c19f8410cbb6fffb5cc8e6ba45bf42d0dc83c75cff18dd72fe@boot.chancoin.moe:30301",
+	//"enode://a1964d52bb7e7de39081ec6cd88a3628f12a50530cc6671d1c3cf68eeeb584f407a252dc04433e8f1d532238376fedb6d6d8ccea927c678532f206f50fc8a027@boot.signal2noi.se:30301",
 }
 
 // TestnetBootnodes are the enode URLs of the P2P bootstrap nodes running on the

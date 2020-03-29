@@ -24,7 +24,7 @@ import (
 )
 
 var (
-	ChancoinMainnetGenesisHash = common.HexToHash("9326145f8a2c8c00bbe13afc7d7f3d9c868b5ef39d89f2f4e9390e9720298624") // Chancoin Mainnet genesis hash to enforce below configs on
+	ChancoinMainnetGenesisHash = common.HexToHash("fac4c8976b90acc7fa933b88ff808a7b1737c295b1a9f18d89179f57c8d30200") // Chancoin Mainnet genesis hash to enforce below configs on
 	MainnetGenesisHash     = common.HexToHash("8d13370621558f4ed0da587934473c0404729f28b0ff1d50e5fdd840457a2f17") // Mainnet genesis hash to enforce below configs on
 	TestnetGenesisHash     = common.HexToHash("dffc8ae3b45965404b4fd73ce7f0e13e822ac0fc23ce7e95b42bc5f1e57023a5") // Testnet genesis hash to enforce below configs on
 )
@@ -32,7 +32,7 @@ var (
 var (
 	// Chancoin mainnet config
 	ChancoinMainnetChainConfig = &ChainConfig{
-		ChainId:        big.NewInt(88),
+		ChainId:        big.NewInt(133701),
 		HomesteadBlock: big.NewInt(1),
 		EIP150Block:    big.NewInt(2),
 		EIP150Hash:     common.HexToHash("0x0000000000000000000000000000000000000000000000000000000000000000"),
@@ -40,11 +40,11 @@ var (
 		EIP158Block:    big.NewInt(3),
 		ByzantiumBlock: big.NewInt(4),
 		Posv: &PosvConfig{
-			Period:              2,
+			Period:              15,
 			Epoch:               900,
-			Reward:              250,
+			Reward:              2,
 			RewardCheckpoint:    900,
-			Gap:                 5,
+			Gap:                 450,
 			FoudationWalletAddr: common.HexToAddress("0x0000000000000000000000000000000000000068"),
 		},
 	}
